@@ -5,8 +5,8 @@ jobs:
   ubuntu:
     runs-on: ubuntu-latest
     steps:
-    - run: printenv
+    - run: echo $GITHUB_WORKSPACE
   win:
     runs-on: windows-latest
     steps:
-    - run: SET
+    - run: echo $GITHUB_WORKSPACE
